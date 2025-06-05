@@ -30,7 +30,7 @@ event.globalKeys.clear(); event.globalKeys.add(key="escape",func=set_exit)
 
 fixation=visual.TextStim(win,text="+",color="white",height=40)
 rest_text=visual.TextStim(win,text="Have a rest\n or you can press space to continue",color="black")
-instr_text=visual.TextStim(win,text="practice\nF= left J= right\n press space to start",color="black")
+instr_text=visual.TextStim(win,text="Instruction:\nAt first, gaze at the fixation cross and following a face stimulus.\nThe face stimulus’ gaze direction becomes left or right side of the display, and then a target stimulus appears at the left or right side of the display.\n• The gaze direction is not related to the location of the target.\nYour task is to judge the target location as fast and accurately as possible.\n\n practice\nF= left J= right\n press space to start",color="black")
 transition_text=visual.TextStim(win,text="practice over, next will be formal trails\n press space to continue",color="black")
 thanks_text=visual.TextStim(win,text="experiment is over\n thank you!",color="black")
 error_beep=sound.Sound("C",secs=0.25)
